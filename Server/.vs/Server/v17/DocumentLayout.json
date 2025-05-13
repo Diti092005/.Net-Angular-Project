@@ -3,80 +3,40 @@
   "WorkspaceRootPath": "M:\\Api-Angular-Project\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\bll\\catergoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\bll\\catergoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\interfaces\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\interfaces\\igiftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\giftdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\interfaces\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\interfaces\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\migrations\\20250512171250_finishcategorey3models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\migrations\\20250512171250_finishcategorey3models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\controllers\\giftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\controllers\\giftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\dto\\donordtoresault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\dto\\donordtoresault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\bll\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\bll\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\bll\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\bll\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\bll\\interfaces\\icatergoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\bll\\interfaces\\icatergoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\interfaces\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\interfaces\\idonordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\dal\\donordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\bll\\interfaces\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\bll\\interfaces\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\dto\\giftdtotheen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\dto\\giftdtotheen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\dto\\giftdtoresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\dto\\giftdtoresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|m:\\api-angular-project\\server\\server\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCA70E3-3A4F-429C-900E-3F45B4EB8715}|Server\\Server.csproj|solutionrelative:server\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,252 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryDal.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\CategoryDal.cs",
-              "RelativeDocumentMoniker": "Server\\Dal\\CategoryDal.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\CategoryDal.cs",
-              "RelativeToolTip": "Server\\Dal\\CategoryDal.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAawDEAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:03:12.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250512171250_FinishCategorey3Models.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Migrations\\20250512171250_FinishCategorey3Models.cs",
-              "RelativeDocumentMoniker": "Server\\Migrations\\20250512171250_FinishCategorey3Models.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Migrations\\20250512171250_FinishCategorey3Models.cs",
-              "RelativeToolTip": "Server\\Migrations\\20250512171250_FinishCategorey3Models.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:12:50.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\CategoryController.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Server\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDoAAAAMAAAA",
+              "Title": "DonorDTOResault.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\DonorDTOResault.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\DTO\\DonorDTOResault.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\DonorDTOResault.cs",
+              "RelativeToolTip": "Server\\Models\\DTO\\DonorDTOResault.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:05:44.423Z",
+              "WhenOpened": "2025-05-13T13:40:29.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CatergoryService.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\CatergoryService.cs",
-              "RelativeDocumentMoniker": "Server\\Bll\\CatergoryService.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\CatergoryService.cs",
-              "RelativeToolTip": "Server\\Bll\\CatergoryService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAEwCcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:04:21.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICatergoryService.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\Interfaces\\ICatergoryService.cs",
-              "RelativeDocumentMoniker": "Server\\Bll\\Interfaces\\ICatergoryService.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\Interfaces\\ICatergoryService.cs",
-              "RelativeToolTip": "Server\\Bll\\Interfaces\\ICatergoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:04:14.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Server",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Server.csproj",
-              "RelativeDocumentMoniker": "Server\\Server.csproj",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Server.csproj",
-              "RelativeToolTip": "Server\\Server.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T17:20:04.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICategoryDal.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\ICategoryDal.cs",
-              "RelativeDocumentMoniker": "Server\\Dal\\Interfaces\\ICategoryDal.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\ICategoryDal.cs",
-              "RelativeToolTip": "Server\\Dal\\Interfaces\\ICategoryDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:03:04.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GiftDal.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\GiftDal.cs",
-              "RelativeDocumentMoniker": "Server\\Dal\\GiftDal.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\GiftDal.cs",
-              "RelativeToolTip": "Server\\Dal\\GiftDal.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:27:04.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGiftDal.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\IGiftDal.cs",
-              "RelativeDocumentMoniker": "Server\\Dal\\Interfaces\\IGiftDal.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\IGiftDal.cs",
-              "RelativeToolTip": "Server\\Dal\\Interfaces\\IGiftDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:20:26.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Server\\appsettings.json",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\appsettings.json",
-              "RelativeToolTip": "Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T17:20:00.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "AppProfile.cs",
               "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\AppProfile.cs",
               "RelativeDocumentMoniker": "Server\\AppProfile.cs",
               "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\AppProfile.cs",
               "RelativeToolTip": "Server\\AppProfile.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:48:12.186Z",
+              "WhenOpened": "2025-05-13T13:39:30.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwB8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:09:06.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GiftService.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\GiftService.cs",
-              "RelativeDocumentMoniker": "Server\\Bll\\GiftService.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\GiftService.cs",
-              "RelativeToolTip": "Server\\Bll\\GiftService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:37:30.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GiftsController.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\GiftsController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\GiftsController.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\GiftsController.cs",
-              "RelativeToolTip": "Server\\Controllers\\GiftsController.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAcwAoAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:28:03.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\DTO\\CategoryDTO.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\CategoryDTO.cs",
-              "RelativeToolTip": "Server\\Models\\DTO\\CategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:00:28.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GiftDTO.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTO.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\DTO\\GiftDTO.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTO.cs",
-              "RelativeToolTip": "Server\\Models\\DTO\\GiftDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:45:05.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "GiftDTOResult.cs",
               "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTOResult.cs",
               "RelativeDocumentMoniker": "Server\\Models\\DTO\\GiftDTOResult.cs",
               "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTOResult.cs",
               "RelativeToolTip": "Server\\Models\\DTO\\GiftDTOResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:44:44.367Z",
+              "WhenOpened": "2025-05-13T13:39:13.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Gift.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\Gift.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Gift.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\Gift.cs",
-              "RelativeToolTip": "Server\\Models\\Gift.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAAA2AAAA",
+              "DocumentIndex": 6,
+              "Title": "GiftDTOTheen.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTOTheen.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\DTO\\GiftDTOTheen.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\DTO\\GiftDTOTheen.cs",
+              "RelativeToolTip": "Server\\Models\\DTO\\GiftDTOTheen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:45:32.122Z",
+              "WhenOpened": "2025-05-13T13:37:53.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Ticket.cs",
-              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Models\\Ticket.cs",
-              "RelativeToolTip": "Server\\Models\\Ticket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "DocumentIndex": 2,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\DonorService.cs",
+              "RelativeDocumentMoniker": "Server\\Bll\\DonorService.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\DonorService.cs",
+              "RelativeToolTip": "Server\\Bll\\DonorService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAmwEAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:24:26.447Z",
+              "WhenOpened": "2025-05-13T13:36:33.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\Interfaces\\IDonorService.cs",
+              "RelativeDocumentMoniker": "Server\\Bll\\Interfaces\\IDonorService.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Bll\\Interfaces\\IDonorService.cs",
+              "RelativeToolTip": "Server\\Bll\\Interfaces\\IDonorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:36:27.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonorDal.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\DonorDal.cs",
+              "RelativeDocumentMoniker": "Server\\Dal\\DonorDal.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\DonorDal.cs",
+              "RelativeToolTip": "Server\\Dal\\DonorDal.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwE0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:35:43.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDonorDal.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\IDonorDal.cs",
+              "RelativeDocumentMoniker": "Server\\Dal\\Interfaces\\IDonorDal.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Dal\\Interfaces\\IDonorDal.cs",
+              "RelativeToolTip": "Server\\Dal\\Interfaces\\IDonorDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:35:20.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DonorController.cs",
+              "DocumentMoniker": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\DonorController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\DonorController.cs",
+              "ToolTip": "M:\\Api-Angular-Project\\Server\\Server\\Controllers\\DonorController.cs",
+              "RelativeToolTip": "Server\\Controllers\\DonorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:31:10.782Z",
               "EditorCaption": ""
             }
           ]

@@ -10,7 +10,7 @@ namespace Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CategoryController : Controller
+    public class CategoryController : ControllerBase
     {
 
         private readonly ICatergoryService _icatergoryService;
@@ -51,9 +51,9 @@ namespace Server.Controllers
         [HttpPost("")]
         public async Task<ActionResult> Post([FromBody] CategoryDTO categoryforpost)
         {
-            var found = await _icatergoryService.IsExist(categoryforpost.Name);
+            var found = await _icatergoryService.IsExist(categoryforpost.CategoryName);
             if (found)
-                return Conflict($"Gift with name {categoryforpost.Name} is exist");
+                return Conflict($"Gift with name {categoryforpost.CategoryName} is exist");
             var category = _mapper.Map<Category>(categoryforpost);
             try
             {

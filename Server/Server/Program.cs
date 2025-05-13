@@ -19,6 +19,8 @@ builder.Services.AddScoped<IGiftDal, GiftDal>();
 builder.Services.AddScoped<IGiftService, GiftService>();
 builder.Services.AddScoped<ICategoryDal, CategoryDal>();
 builder.Services.AddScoped<ICatergoryService, CatergoryService>();
+builder.Services.AddScoped<IDonorService, DonorService>();
+builder.Services.AddScoped<IDonorDal, DonorDal>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 

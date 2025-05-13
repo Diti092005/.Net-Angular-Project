@@ -11,10 +11,12 @@ namespace Server
         {
             public AppProfile()
             {
-              
                 CreateMap<GiftDTO, Gift>();
                 CreateMap<Gift, GiftDTOResualt>();
                 CreateMap<CategoryDTO, Category>();
+                CreateMap<DonorDTO, Donor>();
+                CreateMap<Donor, DonorDTOResault>();
+                CreateMap<Gift, GiftDTOTheen>();
             }
         }
     }

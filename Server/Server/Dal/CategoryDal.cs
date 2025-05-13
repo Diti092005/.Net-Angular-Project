@@ -29,7 +29,7 @@ namespace Server.Dal
         async Task ICategoryDal.UpdateAsync(int id,Category category)
         {
             var foundcategory = await _context.Categories.FindAsync(id);
-            if (category != null) {
+            if (foundcategory != null) {
              foundcategory.CategoryName = category.CategoryName;
             _context.Categories.Update(foundcategory);
             await _context.SaveChangesAsync();
@@ -47,8 +47,8 @@ namespace Server.Dal
         }
         async Task<bool> ICategoryDal.IsExist(string name)
         {
-            var res = await _context.Categories.AnyAsync(c=>c.CategoryName==name);
-            return res;
+          return await _context.Categories.AnyAsync(c=>c.CategoryName==name);
+            
         }
 
     }

@@ -168,3 +168,4 @@ M:\Api-Angular-Project\Server\Server\bin\Debug\net8.0\runtimes\browser\lib\net8.
 M:\Api-Angular-Project\Server\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 M:\Api-Angular-Project\Server\Server\bin\Debug\net8.0\AutoMapper.dll
 M:\Api-Angular-Project\Server\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+M:\Api-Angular-Project\Server\Server\obj\Debug\net8.0\Server.sourcelink.json
