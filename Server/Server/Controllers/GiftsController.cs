@@ -20,64 +20,129 @@ namespace Server.Controllers
             _giftService = giftService;
             this._mapper = mapper;
         }
-
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            var gifts = await _giftService.GetAllGiftsAsync();
-            return Ok(gifts);
-        }
-
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetGiftById(int id)
         {
-            var gift = await _giftService.GetGiftByIdAsync(id);
-            if (gift == null)
+            try
             {
-                return NotFound();
+                var gift = await _giftService.GetGiftById(id);
+                return Ok(gift);
             }
-            return Ok(gift);
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
-
+        [HttpGet]
+        public async Task<IActionResult> GetAllGifts()
+        {
+            try
+            {
+                var gifts = await _giftService.GetAllGifts();
+                return Ok(gifts);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] GiftDTO giftDTO)
+        public async Task<IActionResult> AddGift([FromBody] GiftDTO gift)
         {
-            if (giftDTO == null)
+            try
             {
-                return BadRequest();
+                if (gift == null)
+                {
+                    return BadRequest("Gift cannot be null.");
+                }
+                if (await _giftService.IsTitleExists(gift.GiftName))
+                {
+                    return Conflict("Gift with this title already exists.");
+                }
+                var newGift = _mapper.Map<Gift>(gift);
+                await _giftService.AddGift(newGift);
+                return CreatedAtAction(nameof(GetGiftById), new { id = newGift.Id }, gift);
             }
-            var gift= _mapper.Map<Gift>(giftDTO);
-            await _giftService.AddGiftAsync(gift);
-            return CreatedAtAction(nameof(GetById), new { id = gift.Id }, gift);///////
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
-
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] GiftDTO giftDTO)
+        public async Task<IActionResult> UpdateGift(int id, [FromBody] GiftDTO gift)
         {
-            var gift = _mapper.Map<Gift>(giftDTO);
-            var gifts = await _giftService.GetAllGiftsAsync();
-            if (gifts == null)
-                return BadRequest("There are no gifts!!!");
-            var foundGift = gifts.First(g => g.Id == id);
-            if (foundGift == null)
-                return BadRequest("Gift didnwt found!!");
-            if (gift.Price != 0)
-                foundGift.Price = gift.Price;
-            if (gift.CategoryID != 0)//לחפש אם קיים כזה
-                foundGift.CategoryID = gift.CategoryID;
-            if (gift.GiftName.Equals(""))
-                foundGift.GiftName = gift.GiftName;
-            if (gift.DonorId != 0)//לחפש אם קיים כזה
-                foundGift.DonorId = gift.DonorId;
-            await _giftService.UpdateGiftAsync(gift);
-            return NoContent();
+            try
+            {
+                if (gift == null)
+                {
+                    return BadRequest("Gift cannot be null.");
+                }
+                var existingGift = await _giftService.GetGiftById(id);
+                if (await _giftService.IsTitleExists(gift.GiftName)&& existingGift.GiftName!=gift.GiftName)
+                {
+                    return Conflict("Gift with this title already exists.");
+                }
+                await _giftService.UpdateGift(id, gift);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteGift(int id)
+        {
+            try
+            {
+                await _giftService.DeleteGift(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpGet("sort/category")]
+        public async Task<IActionResult> SortByCategory()
+        {
+            try
+            {
+                var gifts = await _giftService.SortByCategory();
+                return Ok(gifts);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpGet("sort/price")]
+        public async Task<IActionResult> SortByPrice()
+        {
+            try
+            {
+                var gifts = await _giftService.SortByPrice();
+                return Ok(gifts);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] int? numBuyers, [FromQuery] string? donorname, [FromQuery] string? giftname)
+        {
+            try
+            {
+                var gifts = await _giftService.Search(numBuyers, donorname, giftname);
+                return Ok(gifts);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            await _giftService.DeleteGiftAsync(id);
-            return NoContent();
-        }
+
     }
 }

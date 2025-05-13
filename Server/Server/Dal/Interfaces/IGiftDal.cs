@@ -1,18 +1,19 @@
 ﻿using Server.Models;
+using Server.Models.DTO;
 
 namespace Server.Dal
 {
     public interface IGiftDal
     {
-        Task<IEnumerable<Gift>> GetAllAsync();
-        Task<Gift> GetByIdAsync(int id);
+        Task<List<GiftDTOResualt>> GetAllAsync();
+        Task<List<GiftDTOResualt>> SortByCategory();
+        Task<List<GiftDTOResualt>> SortByPrice();
+        Task<GiftDTOResualt> GetByIdAsync(int id);
+        Task<GiftDTOResualt> Search(int? numBuyers, string? donorname, string? giftname);
+        Task<bool> IsTitleExists(string title);
         Task AddAsync(Gift gift);
-        Task UpdateAsync(Gift gift);
+        Task UpdateAsync(int id,GiftDTO gift);
         Task DeleteAsync(int id);
-        //public Task<List<Donor>> GetDonors(int id);
-        //public Task<List<Gift>> Search(string name = "", string donor = "", int minSales = 0, int price = 10);
-        //public Task<bool> TitleExists(string title);
-        //public Task<List<Gift>> SortByPrice();
-        //public Task<List<Gift>> SortByName();
+
     }
 }

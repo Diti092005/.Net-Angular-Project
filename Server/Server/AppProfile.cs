@@ -12,11 +12,15 @@ namespace Server
             public AppProfile()
             {
                 CreateMap<GiftDTO, Gift>();
-                CreateMap<Gift, GiftDTOResualt>();
+                CreateMap<Gift, GiftDTOResualt>()
+                .ForMember(dest=>dest.CategoryName,opt=>opt.MapFrom(src => src.Category.CategoryName));
+                CreateMap<Donor, DonorDTOResault>();
                 CreateMap<CategoryDTO, Category>();
                 CreateMap<DonorDTO, Donor>();
-                CreateMap<Donor, DonorDTOResault>();
+                CreateMap<Donor, DonorDTOTheen>();
                 CreateMap<Gift, GiftDTOTheen>();
+                CreateMap<User, UserDTOTheen>();
+                CreateMap<Ticket, TicketsDTOTheen>();
             }
         }
     }
