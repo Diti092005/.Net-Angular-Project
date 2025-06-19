@@ -1,0 +1,46 @@
+<!-- <div class="card flex justify-content-center">
+    <p-floatLabel>
+        <input pInputText id="userName" [(ngModel)]="login.userName" />
+        <label for="username">Username</label>
+    </p-floatLabel>
+</div>
+
+<div class="card flex justify-content-center">
+    <p-floatLabel>
+        <input pInputText id="password" [(ngModel)]="login.password" />
+        <label for="password">password</label>
+    </p-floatLabel>
+</div>
+
+<button style="height: 40px; width: 60px;" pButton pRipple label="Save" icon="pi pi-check" class="p-button-text"
+    (click)="Login()">כניסה</button>
+ -->
+ <div class="center">
+    <div class="card center-card">
+        <h2 class="form-title">User Login</h2>
+        <p class="form-description">אנא מלא את הפרטים שלך למטה כדי להיכנס</p>
+
+        <form (ngSubmit)="Login()">
+
+            <div class="p-field">
+                <!-- <p-floatLabel> -->
+                    <label for="username">Username</label>
+                    <input pInputText id="username" [(ngModel)]="login.username" name="username" required autofocus />
+                    <small class="p-error" *ngIf="!login.username">username is required.</small>
+                <!-- </p-floatLabel> -->
+            </div>
+
+            <div class="p-field">
+                <!-- <p-floatLabel> -->
+                    <label for="password">password</label>
+                    <input pInputText id="password" [(ngModel)]="login.password" name="password" required />
+                    <small class="p-error" *ngIf="!login.password">password is required.</small>
+                <!-- </p-floatLabel> -->
+            </div>
+
+            <button pButton pRipple  icon="pi pi-check" class="p-button-success mt-3"
+                (click)="Login()">כניסה</button>
+
+        </form>
+    </div>
+</div>
